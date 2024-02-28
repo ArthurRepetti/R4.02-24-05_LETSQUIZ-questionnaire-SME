@@ -1,0 +1,1 @@
+transforme un objet en un autre (bo -> dto)
