@@ -1,2 +1,1 @@
 représentation en objet d'une donnée
-oppio
