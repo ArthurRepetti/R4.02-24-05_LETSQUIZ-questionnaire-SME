@@ -1,4 +1,4 @@
-package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.services.utils;
+package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.utils;
 
 public enum Langue {
 
