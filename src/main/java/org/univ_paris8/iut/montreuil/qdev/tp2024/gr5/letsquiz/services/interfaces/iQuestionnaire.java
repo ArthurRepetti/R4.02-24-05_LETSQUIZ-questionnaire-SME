@@ -1,4 +1,4 @@
-package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.services.impls;
+package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.services.interfaces;
 
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.QuestionDTO;
 
@@ -9,8 +9,6 @@ public interface iQuestionnaire {
     public void ajouterQuestion(QuestionDTO question);
 
     public void supprimerQuestion(QuestionDTO question);
-
-    public Set<QuestionDTO> obtenirQuestions();
 
     public QuestionDTO trouverQuestionParId(Integer id);
 
