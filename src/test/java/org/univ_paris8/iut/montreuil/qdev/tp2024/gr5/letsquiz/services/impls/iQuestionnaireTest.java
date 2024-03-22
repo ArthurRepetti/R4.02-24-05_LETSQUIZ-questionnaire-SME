@@ -11,7 +11,10 @@ public class iQuestionnaireTest extends TestCase {
 
     public void testAjouterQuestion() {
         QuestionDTO question = new QuestionDTO(1, "fr", "De quel petit objet se munit le golfeur pour surélever sa balle avant de la frapper?", "Tee", "1","Bah parce que", "https://fr.wikipedia.org/wiki/Matériel_de_golf");
-        QuestionnaireDTO questionnaire = new QuestionnaireDTO();
+        QuestionnaireDTO questionnaireDTO = new QuestionnaireDTO();
+        Questionnaire questionnaire = new Questionnaire();
+
+        questionnaire.ajouterQuestion();
 
     }
 

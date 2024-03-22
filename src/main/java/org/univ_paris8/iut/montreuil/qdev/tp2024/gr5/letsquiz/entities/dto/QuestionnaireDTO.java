@@ -15,4 +15,16 @@ public class QuestionnaireDTO {
 
         valeur++;
     }
+
+    public Set<String> getListeDesQuestions() {
+        return listeDesQuestions;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public static Integer getValeur() {
+        return valeur;
+    }
 }
