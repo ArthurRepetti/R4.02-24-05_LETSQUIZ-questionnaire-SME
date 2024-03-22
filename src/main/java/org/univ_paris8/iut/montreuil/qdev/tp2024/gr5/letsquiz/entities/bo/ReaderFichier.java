@@ -1,6 +1,6 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.bo;
 
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Question;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.QuestionDTO;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -34,14 +34,14 @@ public class ReaderFichier {
         return null;
     }
 
-    public Question transformerLigneEnQuestion(String ligne) {
+    public QuestionDTO transformerLigneEnQuestion(String ligne) {
 
         String[] lesElementsDeLaQuestion = ligne.split(";");
         for (String bout : lesElementsDeLaQuestion) {
 
             System.out.println(bout + "\n");
         }
-        Question questionFinale = new Question(
+        QuestionDTO questionFinale = new QuestionDTO(
                 Integer.valueOf(lesElementsDeLaQuestion[1]),
                 lesElementsDeLaQuestion[2],
                 lesElementsDeLaQuestion[3],
@@ -52,5 +52,4 @@ public class ReaderFichier {
 
         return questionFinale;
     }
-
 }

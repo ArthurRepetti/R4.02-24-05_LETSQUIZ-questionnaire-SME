@@ -7,17 +7,12 @@ public class QuestionnaireDTO {
 
     private static Integer valeur = 1;
     private Integer id;
-    private Set<Question> listeDesQuestions;
+    private Set<String> listeDesQuestions;
 
     public QuestionnaireDTO() {
         this.id = valeur;
         this.listeDesQuestions = new HashSet<>();
 
         valeur++;
-    }
-
-    public void ajouterQuestion(Question question) {
-
-        this.listeDesQuestions.add(question);
     }
 }

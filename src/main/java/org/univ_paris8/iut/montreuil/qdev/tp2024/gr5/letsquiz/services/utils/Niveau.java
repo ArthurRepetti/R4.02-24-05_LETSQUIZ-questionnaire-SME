@@ -1,4 +1,4 @@
-package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle;
+package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.services.utils;
 
 public enum Niveau {
     un(1), deux(2), trois(3);

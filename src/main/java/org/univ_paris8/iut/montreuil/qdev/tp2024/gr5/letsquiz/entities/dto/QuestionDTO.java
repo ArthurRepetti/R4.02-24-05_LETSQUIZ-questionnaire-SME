@@ -1,11 +1,11 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto;
 
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle.Langue;
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle.Niveau;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.services.utils.Langue;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.services.utils.Niveau;
 
 import java.util.Objects;
 
-public class Question {
+public class QuestionDTO {
 
     private Integer numéro;
 
@@ -34,8 +34,8 @@ public class Question {
                 '}';
     }
 
-    public Question(Integer numéro, String langue, String libellé, String réponse,
-                    String niveau, String explication, String source) {
+    public QuestionDTO(Integer numéro, String langue, String libellé, String réponse,
+                       String niveau, String explication, String source) {
 
         this.numéro = numéro;
         this.langue = Langue.getByCode(langue);
@@ -49,9 +49,9 @@ public class Question {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Question)) return false;
+        if (!(o instanceof QuestionDTO)) return false;
 
-        Question question = (Question) o;
+        QuestionDTO question = (QuestionDTO) o;
 
         if (!Objects.equals(numéro, question.numéro)) return false;
         if (langue != question.langue) return false;

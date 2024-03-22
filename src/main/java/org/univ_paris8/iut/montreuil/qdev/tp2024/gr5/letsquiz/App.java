@@ -1,6 +1,6 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz;
 
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle.ErreurSaisieChoix;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.services.utils.ErreurSaisieChoix;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle.Menu;
 
 import java.io.IOException;

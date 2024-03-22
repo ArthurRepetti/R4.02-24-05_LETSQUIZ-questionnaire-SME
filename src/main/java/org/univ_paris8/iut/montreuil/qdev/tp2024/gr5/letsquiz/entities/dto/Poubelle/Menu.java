@@ -1,5 +1,7 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle;
 
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.services.utils.ErreurSaisieChoix;
+
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
