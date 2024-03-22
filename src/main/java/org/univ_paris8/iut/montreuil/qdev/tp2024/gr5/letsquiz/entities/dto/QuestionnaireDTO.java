@@ -7,24 +7,37 @@ public class QuestionnaireDTO {
 
     private static Integer valeur = 1;
     private Integer id;
-    private Set<String> listeDesQuestions;
+    private Set<QuestionDTO> listeDesQuestions; // Utilisation de QuestionDTO au lieu de String
 
     public QuestionnaireDTO() {
         this.id = valeur;
         this.listeDesQuestions = new HashSet<>();
-
         valeur++;
     }
 
-    public Set<String> getListeDesQuestions() {
-        return listeDesQuestions;
+    public static Integer getValeur() {
+        return valeur;
+    }
+
+    public static void setValeur(Integer valeur) {
+        QuestionnaireDTO.valeur = valeur;
     }
 
     public Integer getId() {
         return id;
     }
 
-    public static Integer getValeur() {
-        return valeur;
+    public void setId(Integer id) {
+        this.id = id;
     }
+
+    public Set<QuestionDTO> getListeDesQuestions() {
+        return listeDesQuestions;
+    }
+
+    public void setListeDesQuestions(Set<QuestionDTO> listeDesQuestions) {
+        this.listeDesQuestions = listeDesQuestions;
+    }
+// Getters and setters for id and listeDesQuestions...
 }
+

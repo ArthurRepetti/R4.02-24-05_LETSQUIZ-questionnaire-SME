@@ -21,6 +21,62 @@ public class QuestionDTO {
 
     private String source;
 
+    public Integer getNuméro() {
+        return numéro;
+    }
+
+    public void setNuméro(Integer numéro) {
+        this.numéro = numéro;
+    }
+
+    public Langue getLangue() {
+        return langue;
+    }
+
+    public void setLangue(Langue langue) {
+        this.langue = langue;
+    }
+
+    public String getLibellé() {
+        return libellé;
+    }
+
+    public void setLibellé(String libellé) {
+        this.libellé = libellé;
+    }
+
+    public String getRéponse() {
+        return réponse;
+    }
+
+    public void setRéponse(String réponse) {
+        this.réponse = réponse;
+    }
+
+    public Niveau getNiveau() {
+        return niveau;
+    }
+
+    public void setNiveau(Niveau niveau) {
+        this.niveau = niveau;
+    }
+
+    public String getExplication() {
+        return explication;
+    }
+
+    public void setExplication(String explication) {
+        this.explication = explication;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
+    }
+
     @Override
     public String toString() {
         return "Question{" +
