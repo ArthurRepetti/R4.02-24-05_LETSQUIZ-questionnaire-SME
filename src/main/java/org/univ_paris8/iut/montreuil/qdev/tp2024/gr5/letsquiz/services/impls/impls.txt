@@ -1,1 +1,1 @@
-les implementations de contrats de services
+les implementations de contrats de services (méthodes)

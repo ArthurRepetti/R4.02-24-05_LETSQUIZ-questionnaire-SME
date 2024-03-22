@@ -1,6 +1,4 @@
-package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto;
-
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Exceptions.ErreurSaisieChoix;
+package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;

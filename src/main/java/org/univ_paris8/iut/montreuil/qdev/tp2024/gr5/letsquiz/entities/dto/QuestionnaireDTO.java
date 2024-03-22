@@ -1,20 +1,15 @@
-package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.bo;
-
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Question;
+package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.SortedSet;
 
-public class Questionnaire {
+public class QuestionnaireDTO {
 
     private static Integer valeur = 1;
-
     private Integer id;
     private Set<Question> listeDesQuestions;
 
-    public Questionnaire() {
-
+    public QuestionnaireDTO() {
         this.id = valeur;
         this.listeDesQuestions = new HashSet<>();
 

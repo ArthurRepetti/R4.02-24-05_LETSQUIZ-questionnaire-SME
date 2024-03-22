@@ -1,1 +1,1 @@
-objet manipulé par le programme
+objet manipulé par le programme (données)

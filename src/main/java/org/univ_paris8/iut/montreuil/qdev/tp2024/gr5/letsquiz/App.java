@@ -1,9 +1,7 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz;
 
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.bo.ReaderFichier;
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Exceptions.ErreurSaisieChoix;
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Menu;
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Question;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle.ErreurSaisieChoix;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle.Menu;
 
 import java.io.IOException;
 

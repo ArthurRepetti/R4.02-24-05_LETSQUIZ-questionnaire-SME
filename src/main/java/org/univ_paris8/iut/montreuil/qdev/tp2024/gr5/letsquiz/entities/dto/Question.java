@@ -1,7 +1,7 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto;
 
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Langue;
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Niveau;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle.Langue;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto.Poubelle.Niveau;
 
 import java.util.Objects;
 
