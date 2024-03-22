@@ -1,43 +1,33 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr5.letsquiz.entities.dto;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 public class QuestionnaireDTO {
-
-    private static Integer valeur = 1;
     private Integer id;
-    private Set<QuestionDTO> listeDesQuestions; // Utilisation de QuestionDTO au lieu de String
+    private List<QuestionDTO> questions;
 
-    public QuestionnaireDTO() {
-        this.id = valeur;
-        this.listeDesQuestions = new HashSet<>();
-        valeur++;
-    }
+    public QuestionnaireDTO(Integer id) {
 
-    public static Integer getValeur() {
-        return valeur;
-    }
-
-    public static void setValeur(Integer valeur) {
-        QuestionnaireDTO.valeur = valeur;
+        this.id = id;
+        this.questions = new ArrayList<>();
     }
 
     public Integer getId() {
-        return id;
+
+        return this.id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public List<QuestionDTO> getQuestions() {
+
+        return this.questions;
     }
 
-    public Set<QuestionDTO> getListeDesQuestions() {
-        return listeDesQuestions;
-    }
+    public void addQuestion(QuestionDTO question) {
 
-    public void setListeDesQuestions(Set<QuestionDTO> listeDesQuestions) {
-        this.listeDesQuestions = listeDesQuestions;
+        this.questions.add(question);
     }
-// Getters and setters for id and listeDesQuestions...
 }
+
+
 
