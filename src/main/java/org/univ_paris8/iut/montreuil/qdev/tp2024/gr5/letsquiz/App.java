@@ -13,14 +13,15 @@ public class App
 {
     public static void main( String[] args ) throws IOException, ErreurSaisieChoix {
 
-        Menu menu = new Menu();
-        do {
-            menu.afficherLeMenu();
-            try {
-                menu.demandeDuChoixDuUser();
-            } catch (ErreurSaisieChoix e) {
-                System.out.println(e.getMessage());
-            }
-        } while (true);
+//        Menu menu = new Menu();
+//        do {
+//            menu.afficherLeMenu();
+//            try {
+//                menu.demandeDuChoixDuUser();
+//            } catch (ErreurSaisieChoix e) {
+//                System.out.println(e.getMessage());
+//            }
+//        } while (true);
+
     }
 }
